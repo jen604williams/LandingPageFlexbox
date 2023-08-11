@@ -59,6 +59,7 @@ button {
     background-color: #3882F6;
     padding: 10px;
     margin: 10px 0px;
+    border-radius: 10px;
 }
 
 .quote {
@@ -80,14 +81,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+    padding: 10px;
     font-size: 18px;
     font-family: Roboto, 'Times New Roman', Times, sans-serif;
 }
 
-/* span {
-    margin: 0px 6px;
-    font-style: italic;
-} */
 
 .cardCollection {
     display: flex;
@@ -100,6 +98,7 @@ body {
     flex: 1;
     display: flex;
     border: 5px solid #3882F6;
+    background-color: #d9eaff;
     justify-content: flex-start;
     align-items: center;
     margin: 10px;
@@ -115,4 +114,24 @@ body {
 
 h1 {
     text-align: center;
+}
+
+.bottomNotify {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 600px;
+    align-self: center;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+.notify-text {
+    flex-wrap: wrap;
+}
+
+.bottomNotify>button {
+    border: 3px solid black;
 }
